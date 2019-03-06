@@ -1,4 +1,4 @@
-import socket, json, psutil, multiprocessing, requests
+import socket, json, multiprocessing, requests
 
 from flask import Flask, jsonify
 app = Flask(__name__)
