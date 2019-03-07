@@ -16,4 +16,4 @@ def status():
                       })
 
 if __name__ == '__main__':
-    app.run(host='23.96.5.169',port=5000, debug=True) #Running on localhost/port 8080
+    app.run(host='0.0.0.0',port=5000, debug=True) #Running on localhost/port 8080
